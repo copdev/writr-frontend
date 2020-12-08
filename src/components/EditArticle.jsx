@@ -48,8 +48,7 @@ const EditArticle = (props) => {
           setFileName(res.data.articleImage)
         ])
         .catch((err) => console.log(err));
-      console.log(title, author);
-    }, []);
+    },);
 
   return (
     <FormContainer>
