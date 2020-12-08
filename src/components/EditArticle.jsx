@@ -49,7 +49,7 @@ const EditArticle = (props) => {
         ])
         .catch((err) => console.log(err));
       console.log(title, author);
-    }, [props.match.params.id]);
+    }, []);
 
   return (
     <FormContainer>
