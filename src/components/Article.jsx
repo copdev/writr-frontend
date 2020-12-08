@@ -25,7 +25,7 @@ const Article = (props) => {
           ])
           .catch((err) => console.log(err));
         console.log(title, author)
-    }, [props]);
+    }, [props.match.params.id]);
 
     return (
       <ArticleContainer>

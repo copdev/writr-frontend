@@ -9,7 +9,6 @@ const AddArticle = () => {
     const [title, setTitle] = useState('');
     const [article, setArticle] = useState('');
   const [author, setAuthor] = useState('');
-  const [message, setMessage] = useState('');
   const [fileName, setFileName] = useState('');
 
   const uploadFile = e => {
@@ -45,7 +44,6 @@ const AddArticle = () => {
           <i className='fas fa-chevron-left back'></i>
         </Link>
         <h1>Add New Article</h1>
-        <span>{message}</span>
         <form onSubmit={submitArticle} encType='multipart/form-data'>
           <div>
             <label htmlFor='author'>Author</label>

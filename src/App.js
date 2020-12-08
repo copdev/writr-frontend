@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-import Header from './components/layouts/Header.jsx'
 import Footer from './components/layouts/Footer.jsx';
 import Articles from './components/Articles.jsx';
 import { Route } from "react-router-dom";
